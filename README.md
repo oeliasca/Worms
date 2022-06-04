@@ -1,6 +1,6 @@
 # Worms
 In this project we tried to replicate some of the mechanics of the classical game Worms.
-We build this project from scrath using c++ and SDL.
+We build this project from scratch using c++ and SDL.
 
 To play:
 - A and D to move
