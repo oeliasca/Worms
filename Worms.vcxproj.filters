@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine Headers">
+      <UniqueIdentifier>{2b9ccae5-da8c-4b29-ae10-c2737d76d22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine Cpp">
+      <UniqueIdentifier>{76f59d08-f2d9-44e4-8db5-fcc66f9bc031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Worms Headers">
+      <UniqueIdentifier>{91240303-884e-47ee-b2df-4ac9a299093d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Worms Cpp">
+      <UniqueIdentifier>{5b0190a4-c1c8-434e-8d2a-ba63db31ec66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainForDirector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input\Input.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Video\ResourceManager.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\Scene.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Video\Video.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Worms Scripts\Scenes\SceneCredits.cpp">
+      <Filter>Source Files\Worms Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Worms Scripts\Scenes\SceneGame.cpp">
+      <Filter>Source Files\Worms Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Worms Scripts\Scenes\SceneMain.cpp">
+      <Filter>Source Files\Worms Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Worms Scripts\Scenes\SceneRanking.cpp">
+      <Filter>Source Files\Worms Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Worms Scripts\Scenes\SceneSaveLoad.cpp">
+      <Filter>Source Files\Worms Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Worms Scripts\Scenes\SceneTeamEntry.cpp">
+      <Filter>Source Files\Worms Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\SceneDirector.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\WormPhysics.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Player\WormActor.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Worms Scripts\WormPlayer\Worm.cpp">
+      <Filter>Source Files\Worms Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Worms Scripts\WormPlayer\Weapon.cpp">
+      <Filter>Source Files\Worms Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio\SoundManager.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Text\ScreenText.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameManager\GameManager.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Timer\Timer.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\Projectile.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Worms Scripts\WormPlayer\WormEnemy.cpp">
+      <Filter>Source Files\Worms Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Worms Scripts\Drop\Drop.cpp">
+      <Filter>Source Files\Worms Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UI\UIComponent.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Mapa\Perlin.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Mapa\Mapa.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ReadWrite\ReadWrite.cpp">
+      <Filter>Source Files\Engine Cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Video\Video.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Definitions\definition.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\Input.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Video\ResourceManager.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\Scene.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Worms Scripts\Scenes\SceneCredits.h">
+      <Filter>Header Files\Worms Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Worms Scripts\Scenes\SceneGame.h">
+      <Filter>Header Files\Worms Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Worms Scripts\Scenes\SceneMain.h">
+      <Filter>Header Files\Worms Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Worms Scripts\Scenes\SceneRanking.h">
+      <Filter>Header Files\Worms Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Worms Scripts\Scenes\SceneSaveLoad.h">
+      <Filter>Header Files\Worms Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\SceneDirector.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\WormPhysics.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Player\WormActor.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Worms Scripts\WormPlayer\Worm.h">
+      <Filter>Header Files\Worms Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Worms Scripts\WormPlayer\Weapon.h">
+      <Filter>Header Files\Worms Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio\SoundManager.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Worms Scripts\Scenes\SceneTeamEntry.h">
+      <Filter>Header Files\Worms Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Text\ScreenText.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameManager\GameManager.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Timer\Timer.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\Projectile.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Worms Scripts\WormPlayer\WormEnemy.h">
+      <Filter>Header Files\Worms Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Worms Scripts\Drop\Drop.h">
+      <Filter>Header Files\Worms Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\UI\UIComponent.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ReadWrite\ReadWrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Mapa\Perlin.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Mapa\Mapa.h">
+      <Filter>Header Files\Engine Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
